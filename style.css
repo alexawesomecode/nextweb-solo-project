@@ -1,73 +1,155 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-    color: lightgray;
-}
-
-ul {
-    list-style: none;
-    display: inline-flex;
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
-}
-
-.navbar-1 {
-    background: black;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    font-size: 15px;
-}
-
-.navbar-1 a {
-    padding-right: 10px;
-}
-
-.navbar-2 {
-    background: whitesmoke;
-    height: auto;
-    padding: 15px;
-}
-
-.navbar-2 a {
-    font-size: 20px;
-}
-
-.front-articles {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-areas: "big big small-top" "big big small-bottom";
-}
-
-.article-box-content {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.article-1 {
-    display: flex;
-    grid-area: big;
-    background-image: url("imgs/front-article-1.jpg");
-    background-size: cover;
-    height: 300px;
-}
-
-.article-2 {
-    grid-area: small-top;
-    display: flex;
-    background-image: url("imgs/front-article-2.jpg");
-}
-
-.article-3 {
-    grid-area: small-bottom;
-    display: flex;
-    background-image: url("imgs/front-article-2.jpg");
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #f42;
+    }
+    
+    h1 {}
+    
+    ul {
+        list-style: none;
+        display: inline-flex;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar-1 {
+        background: black;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+    
+    .navbar-1 a {
+        padding-right: 10px;
+    }
+    
+    .navbar-2 {
+        background: whitesmoke;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .navbar-2 a {
+        font-size: 20px;
+    }
+    
+    .front-articles {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas: "big big small-top" "big big small-bottom";
+    }
+    
+    .latest-news {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .latest-news>* {
+        flex: 1;
+        flex-basis: 25%;
+        padding: 20px;
+    }
+    
+    .latest-news img {
+        width: 100%;
+    }
+    
+    .latest-news-title {}
+    
+    .latest-news-article span {
+        font-size: 15px;
+        color: gray;
+    }
+    
+    .latest-news-article>* {
+        flex-direction: column;
+        padding-bottom: 2%;
+    }
+    
+    .latest-news-title a {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .latest-funding-rounds {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .latest-funding-rounds-article {
+        flex-basis: 25%;
+        padding: 25px;
+        position: relative;
+        text-align: center;
+    }
+    
+    .funding-article-title {
+        background: red;
+        padding: 4%;
+        position: relative;
+    }
+    
+    .funding-article-title img {
+        width: 56px;
+        position: absolute;
+        top: 27%;
+        left: 7%;
+    }
+    
+    .funding-article-amount {
+        display: flex;
+        flex-direction: column;
+        background: pink;
+        padding: 9%;
+    }
+    
+    .latest-funding-rounds-article-middle {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        line-height: 20px;
+    }
+    
+    .latest-funding-rounds-article-bottom {
+        padding: 15px;
+        background: whitesmoke;
+        font-size: 14px;
+        font-weight: 400;
+        color: gray;
+        line-height: 18px;
+    }
+    
+    .funding-article- .article-box-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .article-1 {
+        display: flex;
+        grid-area: big;
+        background-image: url("imgs/front-article-1.jpg");
+        background-size: cover;
+        height: 300px;
+    }
+    
+    .article-2 {
+        grid-area: small-top;
+        display: flex;
+        background-image: url("imgs/front-article-2.jpg");
+    }
+    
+    .article-3 {
+        grid-area: small-bottom;
+        display: flex;
+        background-image: url("imgs/front-article-2.jpg");
+    }
