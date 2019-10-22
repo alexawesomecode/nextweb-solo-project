@@ -11,7 +11,7 @@
     
     h1 {}
     
-    ul {
+    nav ul {
         list-style: none;
         display: inline-flex;
     }
@@ -152,4 +152,106 @@
         grid-area: small-bottom;
         display: flex;
         background-image: url("imgs/front-article-2.jpg");
+    }
+    
+    .apps-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .apps-section img {
+        width: 80%;
+    }
+    
+    .apps-articles {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 30%;
+        padding: 30px 0px;
+        margin: 0 13px;
+    }
+    
+    .apps-bg-img {
+        height: 180px;
+    }
+    
+    .apps-top-title span {
+        display: inline-flex;
+        padding: 0 0 15px 0;
+        font-family: Helvetica, sans-serif;
+        font-size: 25px;
+        color: #f42;
+        font-weight: 1000;
+    }
+    
+    .apps-top-info {
+        color: white;
+        background: url("imgs/tiktok-796x419.png");
+        background-size: cover;
+    }
+    
+    .apps-top-info {
+        padding: 0 14px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .apps-top-info>* {
+        padding: 5px 0;
+    }
+    
+    .apps-top-info>span {
+        font-weight: 100;
+    }
+    
+    .apps-top-info span:last-child {
+        color: lightgray;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    
+    .apps-middle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .apps-middle-text {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 10px;
+    }
+    
+    .apps-middle-text span {
+        padding-bottom: 6px;
+        color: red;
+    }
+    
+    .apps-middle-text span:last-child {
+        font-weight: bold;
+    }
+    
+    .apps-middle-img {
+        flex: 1
+    }
+    
+    .apps-middle-img img {
+        width: 100%;
+    }
+    
+    .apps-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .apps-bottom ul {
+        list-style: none;
+    }
+    
+    .apps-bottom li {
+        font-family: sans-serif;
+        font-size: 13px;
+        padding: 6px 0 6px 14px;
+        color: #555;
+        border-bottom: 1px solid whitesmoke;
     }
