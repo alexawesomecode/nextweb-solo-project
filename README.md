@@ -1,4 +1,4 @@
-# the nextweb clone
+#the nextweb clone
  
  This project was created to level up skills in the responsive web, cloning the frontpage of TNW.
 
