@@ -1,8 +1,8 @@
 #the nextweb clone
  
- This project was created to level up skills in the responsive web, cloning the frontpage of TNW.
+This project was created to level up skills in the responsive web, cloning the frontpage of TNW.
 
-#Authors
+# Authors
 
 This projects was coded by @alexawesomecode
 
