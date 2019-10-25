@@ -14,7 +14,8 @@ HTML, CSS
 
 How to setup a repo of this page on your local machine:
 
-git clone https://github.com/alexawesomecode/nextweb-solo-project
+ git clone https://github.com/alexawesomecode/nextweb-solo-project
 
 # Live version
+
 https://alexawesomecode.github.io/nextweb-solo-project/index.html
