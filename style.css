@@ -1,0 +1,557 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.section-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  font-size: 18px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 6px;
+  color: red;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-logo-img > img {
+  display: none;
+}
+
+.nav-rows {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.navbar-1 {
+  display: flex;
+  padding: 6px 3px;
+  height: auto;
+  justify-content: space-between;
+  font-size: 15px;
+  background: black;
+}
+
+.navbar-2 a {
+  padding-right: 10px;
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+}
+
+.navbar-1 a {
+  padding-right: 10px;
+  color: lightgray;
+}
+
+.latest-news-title a {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar-1 a:hover {
+  color: white;
+}
+
+.navbar-2 {
+  display: flex;
+  background: whitesmoke;
+  height: auto;
+  padding: 17px 0;
+}
+
+.navbar-2 a:hover {
+  color: black;
+}
+
+.navbar-1,
+.navbar-2 {
+  padding-left: 1.5%;
+}
+
+section {
+  padding: 25px;
+}
+
+.front-articles {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "big big small-top" "big big small-bottom";
+}
+
+.article-box-title {
+  align-self: flex-end;
+}
+
+.article-box-content {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  padding: 0 13px;
+  color: white;
+}
+
+.article-box-content h1 {
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.latest-news-article span {
+  font-size: 15px;
+  color: gray;
+}
+
+footer .footer-copyright {
+  display: flex;
+  background: black;
+  height: 100px;
+}
+
+.apps-articles span,
+h2 {
+  padding-left: 2%;
+}
+
+.apps-articles {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30%;
+  padding: 30px 0;
+  margin-right: 30px;
+}
+
+.apps-top-info > span {
+  font-weight: 100;
+}
+
+.apps-top-title span {
+  display: inline-flex;
+  padding: 0 0 15px 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  color: #f42;
+  font-weight: 1000;
+}
+
+.apps-middle-text span {
+  padding-bottom: 6px;
+  color: red;
+}
+
+.footer-copyright span {
+  display: inline-flex;
+  align-self: center;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+.apps-middle-text span:last-child {
+  font-weight: bold;
+}
+
+.article-box-content .article-subtitle span {
+  font-size: 13px;
+  color: gray;
+}
+
+.latest-news {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.latest-news > * {
+  flex: 1;
+  flex-basis: 25%;
+  padding: 25px 25px 25px 0;
+}
+
+.latest-news img {
+  width: 100%;
+}
+
+.latest-news-article > * {
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+
+.latest-funding-rounds {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.latest-funding-rounds-article {
+  flex-basis: 25%;
+  position: relative;
+  padding: 25px 25px 25px 0;
+  text-align: center;
+}
+
+.funding-article-title {
+  background: red;
+  padding: 4%;
+  position: relative;
+}
+
+.funding-article-title img {
+  width: 56px;
+  position: absolute;
+  top: 27%;
+  left: 7%;
+}
+
+.funding-article-amount {
+  display: flex;
+  flex-direction: column;
+  background: pink;
+  padding: 9%;
+}
+
+.latest-funding-rounds-article-middle {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  line-height: 20px;
+}
+
+.latest-funding-rounds-article-bottom {
+  padding: 15px;
+  background: whitesmoke;
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  line-height: 18px;
+}
+
+.funding-article- .article-box-content {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.article-1 {
+  display: flex;
+  grid-area: big;
+  height: 400px;
+  padding: 1%;
+  background: url("imgs/image-6-796x417.png");
+  background-size: cover;
+}
+
+.article-2 {
+  grid-area: small-top;
+  display: flex;
+  padding: 1%;
+  background-image: url("imgs/front-article-2.jpg");
+  background-size: cover;
+}
+
+.article-3 {
+  grid-area: small-bottom;
+  display: flex;
+  padding: 1%;
+  background-image: url("imgs/front-article-3.jpg");
+  background-size: cover;
+}
+
+.apps-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.apps-section img {
+  width: 80%;
+}
+
+.apps-bg-img {
+  height: 180px;
+}
+
+.apps-top-info-1 {
+  color: white;
+  background: url("imgs/tiktok-796x419.png");
+  background-size: cover;
+}
+
+.apps-top-info-2 {
+  color: white;
+  background: url("imgs/syndication9-copy-796x417.jpg");
+  background-size: cover;
+}
+
+.apps-top-info {
+  padding: 0 14px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.apps-top-info > * {
+  padding: 5px 0;
+}
+
+.apps-top-info span:last-child {
+  color: lightgray;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.apps-middle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.apps-middle-text {
+  display: flex;
+  flex-direction: column;
+  width: 66%;
+  padding: 10px;
+}
+
+.apps-middle-img {
+  flex: 1;
+}
+
+.apps-middle-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.apps-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+footer li {
+  margin-right: 10px;
+  color: #aaaa;
+}
+
+.apps-bottom ul {
+  list-style: none;
+}
+
+.apps-bottom li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.apps-bottom li {
+  font-family: sans-serif;
+  font-size: 13px;
+  padding: 6px 0 6px 14px;
+  color: #555;
+  border-bottom: 1px solid whitesmoke;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+footer .social {
+  display: flex;
+  flex-direction: column;
+  background: #131313;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social > :first-child li {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 50px;
+  background: black;
+}
+
+.social > :last-child {
+  margin-top: 2%;
+}
+
+.social > :last-child a {
+  font-family: Helvetica, sans-serif;
+  color: lightgray;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+i {
+  padding-top: 20%;
+  font-size: 24px;
+  color: white;
+}
+
+@media only screen and (max-width: 999px) {
+  .nav-logo-img > img {
+    display: flex;
+    width: 154px;
+  }
+
+  .article-1 {
+    height: 319px;
+  }
+
+  .latest-news > * {
+    flex: 0;
+    flex-basis: 33%;
+  }
+
+  .latest-funding-rounds-article {
+    flex-basis: 33%;
+  }
+
+  .section-title-row {
+    flex-direction: column;
+  }
+
+  .latest-funding-rounds-article:last-child {
+    display: none;
+  }
+
+  .apps-articles {
+    flex: 1;
+    flex-basis: 44%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  nav {
+    position: fixed;
+    width: 100%;
+  }
+
+  .nav-logo-img > img {
+    display: flex;
+    width: 100px;
+  }
+
+  .navbar-1 {
+    display: none;
+  }
+
+  .navbar-2 {
+    background: white;
+  }
+
+  .navbar-2 a {
+    font-size: 0;
+  }
+
+  .front-articles {
+    margin-top: 50px;
+  }
+
+  .article-box-content h1 {
+    font-size: 21px;
+  }
+
+  .article-1,
+  .article-2,
+  .article-3 {
+    grid-area: unset;
+    height: auto;
+  }
+
+  .article-1 {
+    grid-row: 1;
+  }
+
+  .article-2 {
+    grid-row: 2;
+  }
+
+  .article-3 {
+    grid-row: 3;
+  }
+
+  .latest-news > * {
+    display: flex;
+    flex-basis: 100%;
+    padding: 10px 0;
+  }
+
+  .latest-news-article-img {
+    flex: 1;
+  }
+
+  .latest-news-article-content {
+    flex: 4;
+    padding: 11px;
+  }
+
+  .latest-funding-rounds-article {
+    flex-basis: 100%;
+  }
+
+  .section-title-row {
+    flex-direction: column;
+  }
+
+  .funding-article-title img {
+    top: 50%;
+  }
+
+  .funding-article-title {
+    padding: 1%;
+  }
+
+  .funding-article-amount {
+    padding: 3%;
+  }
+
+  .latest-funding-rounds-article:last-child {
+    display: none;
+  }
+
+  .apps-articles {
+    flex: 1;
+    flex-basis: 100%;
+  }
+
+  .latest-deals .latest-news > * {
+    display: flex;
+    flex-basis: 100%;
+    padding: 10px 0;
+  }
+
+  .latest-deals .latest-news-article-img {
+    flex: 1;
+    padding: 11px 11px 0 0;
+  }
+
+  .latest-deals .latest-news-article-content {
+    flex: 4;
+    padding: 9px;
+  }
+}
