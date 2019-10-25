@@ -6,15 +6,15 @@ This project was created to level up skills in the responsive web, cloning the f
 
 This projects was coded by @alexawesomecode
 
-#Technologies used.
+# Technologies used.
 
 HTML, CSS
 
-#Setup
+# Setup
 
 How to setup a repo of this page on your local machine:
 
 git clone https://github.com/alexawesomecode/nextweb-solo-project
 
-#Live version
+# Live version
 https://alexawesomecode.github.io/nextweb-solo-project/index.html
