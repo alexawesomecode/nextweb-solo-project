@@ -18,4 +18,4 @@ How to setup a repo of this page on your local machine:
 
 # Live version
 
-https://alexawesomecode.github.io/nextweb-solo-project/index.html
+ https://raw.githack.com/alexawesomecode/nextweb-solo-project/homepage/index.html
