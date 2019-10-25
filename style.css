@@ -372,10 +372,6 @@ footer li {
   border-bottom: 1px solid whitesmoke;
 }
 
-.deals-crossline {
-  text-decoration: ;
-}
-
 footer {
   display: flex;
   flex-direction: column;
